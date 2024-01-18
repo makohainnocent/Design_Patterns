@@ -73,7 +73,7 @@ namespace gang_of_four.AbstractFactory
     {
         public void render()
         {
-            Console.WriteLine("Dark Theme Text");
+            Console.WriteLine("light Theme Text");
         }
     }
 
@@ -81,7 +81,7 @@ namespace gang_of_four.AbstractFactory
     {
         public void render()
         {
-            Console.WriteLine("Dark Theme Button");
+            Console.WriteLine("light Theme Button");
         }
     }
 
@@ -89,7 +89,7 @@ namespace gang_of_four.AbstractFactory
     {
         public void render()
         {
-            Console.WriteLine("Dark Theme label");
+            Console.WriteLine("light Theme label");
         }
     }
     /******************************** end of concrete elements ************/
