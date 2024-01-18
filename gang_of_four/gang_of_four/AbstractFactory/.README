@@ -1,0 +1,5 @@
+Intent	– Allow	creation	of	families	of	related	
+objectsindependent	of	implementation
+• Use	case	– look-and-feel	in	a	GUI	toolkit
+• Key	type	– Factory with	methods	to	create	each	
+family	member
