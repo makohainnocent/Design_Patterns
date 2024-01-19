@@ -2,6 +2,7 @@
 using gang_of_four.AbstractFactory;
 using gang_of_four.builder;
 using gang_of_four.Factory;
+using gang_of_four.ProtoType;
 
 class Program
 {
@@ -28,6 +29,9 @@ class Program
         /***************** end of  builder pattern *********************/
 
         //factory pattern
-        FactoryExample.FactoryExample1();
-    }
+        //FactoryExample.FactoryExample1();
+
+        //prototype pattern
+        ProtoTypeExample.ProtoTypeExample1();
+    }    
 }
