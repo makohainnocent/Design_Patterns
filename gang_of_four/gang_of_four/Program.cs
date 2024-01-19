@@ -1,6 +1,7 @@
 ﻿using gang_of_four;
 using gang_of_four.AbstractFactory;
 using gang_of_four.builder;
+using gang_of_four.Factory;
 
 class Program
 {
@@ -23,7 +24,10 @@ class Program
 
 
         /***************** builder pattern ****************************/
-        TestMyself_builder.cooking();
+        //TestMyself_builder.cooking();
         /***************** end of  builder pattern *********************/
+
+        //factory pattern
+        FactoryExample.FactoryExample1();
     }
 }
