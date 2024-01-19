@@ -3,6 +3,7 @@ using gang_of_four.AbstractFactory;
 using gang_of_four.builder;
 using gang_of_four.Factory;
 using gang_of_four.ProtoType;
+using gang_of_four.Singleton;
 
 class Program
 {
@@ -32,6 +33,9 @@ class Program
         //FactoryExample.FactoryExample1();
 
         //prototype pattern
-        ProtoTypeExample.ProtoTypeExample1();
+        //ProtoTypeExample.ProtoTypeExample1();
+
+        //singleton example
+        SingletonExample.SingletonExample1();
     }    
 }
