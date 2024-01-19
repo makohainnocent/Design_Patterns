@@ -1,5 +1,6 @@
 ﻿using gang_of_four;
 using gang_of_four.AbstractFactory;
+using gang_of_four.builder;
 
 class Program
 {
@@ -15,9 +16,14 @@ class Program
         GUIApplication macosApp = new GUIApplication(macosFactory);
         macosApp.CreateUI();*/
 
-        TestMyself.simpleApp();
+        //TestMyself.simpleApp();
 
 
         /*****************end of abstract factory *********************/
+
+
+        /***************** builder pattern ****************************/
+        TestMyself_builder.cooking();
+        /***************** end of  builder pattern *********************/
     }
 }
